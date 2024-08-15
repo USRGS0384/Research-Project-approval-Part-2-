@@ -1,0 +1,44 @@
+1- Implement Maze Generation Algorithm
+
+Description: Develop and implement an algorithm to generate the maze structure dynamically.
+
+Attachments: Pseudocode, technical specifications.
+
+2- Implement Player Movement
+
+Description: Write functions to handle player movement within the maze.
+
+Attachments: Pseudocode, technical specifications.
+
+
+Pseudocode for Maze Generation Algorithm
+
+function generateMaze(width, height):
+    initialize maze grid with walls
+    choose random starting cell
+    create empty stack
+    push starting cell to stack
+
+    while stack is not empty:
+        currentCell = pop stack
+        get unvisited neighbors of currentCell
+        if unvisited neighbors exist:
+            choose random neighbor
+            remove wall between currentCell and neighbor
+            mark neighbor as visited
+            push neighbor to stack
+
+    return maze grid
+
+
+
+Technical Specifications for Player Movement
+
+1- Player movement will be controlled via keyboard arrow keys.
+
+2- Each movement attempt will check adjacent cells to ensure movement is within maze boundaries and not blocked by walls.
+
+3- Player position and maze state will be updated dynamically based on user input.
+
+
+In summary, the core logic for maze generation and player movement in your 2D maze game project. Adjust the specifics and technical details according to your project's requirements and chosen programming environment.

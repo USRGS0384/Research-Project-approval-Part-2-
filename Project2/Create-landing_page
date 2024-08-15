@@ -1,0 +1,45 @@
+Landing Page Mockup
+
+
+CSS Styles for Landing Page
+
+/* Reset default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding: 1em;
+    }
+}
+
+
+My hosting platform- Github pages
+
+URL- https://github.com/DaiMika/2D-Maze_Game_Project/tree/master
+
+
+This is for successfully create and deploy the landing page for your project, ensuring it reflects the project's identity and provides necessary information to visitors. Adjust the specifics and design elements according to your project's branding and requirements.
